@@ -36,7 +36,7 @@ void lazy_dijkstra()
         visited[index] = true;
 
         if (distances[index] == -1 || distances[index] > minValue)
-            distances[index] = minValue + ;
+            distances[index] = minValue + 1;
         
     }
 }
